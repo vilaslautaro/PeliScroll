@@ -1,0 +1,92 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3,
+div,
+p,
+input{
+margin: 0;
+padding: 0;
+}
+
+.publicacion{
+    text-align: left;
+    margin: 20px;
+    color: #555;
+    animation: aparecer 1s forwars 0.5s;
+}
+
+.titulo{
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.texto{
+    padding: 10px 20px;
+    border-left: 4px solid #48e;
+}
+
+.comentarios{
+    margin: 20px;
+    display: flex;
+}
+
+.comentarios input{
+    padding: 8px 12px;
+    margin-right: 5px;
+    outline: none;
+}
+
+
+.comentarios .comentario{
+    flex-grow: 1;
+}
+
+.comentario{
+    min-width: 60px;
+    padding: 8px 12px;
+    border-radius: 9px;
+    border: 1px solid;
+}
+.comentario:hover,
+.comentario:focus{
+    border: 1px solid #48e;
+}
+
+.btnSend{
+    background: rgb(0, 102, 255);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+.btnSend:hover{
+    transform: scale(1.02);
+    transition: 0.1s ease;
+}
+
+h4{
+    padding: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
