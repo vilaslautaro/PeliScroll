@@ -1,7 +1,7 @@
 {
   "name": "peliscroll",
   "version": "1.0.0",
-  "description": "App with movie api, which uses Lazy Load + intersection observer to achieve infinite scroll",
+  "description": "App with movie api, which uses Lazy Load + intersection observer to achieve scroll",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
